@@ -1,7 +1,7 @@
 # Semiconductor Process Control (SPC) & Chamber Drift Analytics Platform
 
 ```markdown
-
+# Technologies USED
 
 [![Next.js](https://img.shields.io/badge/Next.js-15.5-black?logo=next.js)](https://nextjs.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104-009688?logo=fastapi)](https://fastapi.tiangolo.com/)
