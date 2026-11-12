@@ -30,7 +30,7 @@ import {
 } from "lucide-react";
 
 const API_BASE =
-  process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api";
+  process.env.NEXT_PRIVATE_API_URL || "http://localhost:8000/api";
 
 interface TopSensor {
   sensor: string;
