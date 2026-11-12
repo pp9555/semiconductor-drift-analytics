@@ -29,8 +29,8 @@ import {
   TrendingUp,
 } from "lucide-react";
 
-const API_BASE =
-  process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api";
+// const API_BASE =process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api";
+const API_BASE = "https://semiconductor-drift-analytics-6511273324.asia-south1.run.app";
 
 interface TopSensor {
   sensor: string;
