@@ -18,6 +18,9 @@ COPY --chown=user scored_production_drift_stream.csv .
 COPY --chown=user clean_labeled_wafers.csv .
 COPY --chown=user golden_baseline_metadata.json .
 
-EXPOSE 7860
+EXPOSE 8080
 
-CMD ["sh", "-c", "uvicorn app_backend:app --host 0.0.0.0 --port $PORT"]
+# Force unbuffered output so Python prints errors immediately
+ENV PYTHONUNBUFFERED=1
+
+CMD ["sh", "-c", "uvicorn app_backend:app --host 0.0.0.0 --port ${PORT:-8080}"]
