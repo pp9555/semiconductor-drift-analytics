@@ -23,4 +23,4 @@ EXPOSE 8080
 # Force unbuffered output so Python prints errors immediately
 ENV PYTHONUNBUFFERED=1
 
-CMD ["sh", "-c", "uvicorn app_backend:app --host 0.0.0.0 --port ${PORT:-8080}"]
+CMD ["uvicorn", "app_backend:app", "--host", "0.0.0.0", "--port", "8080"]
