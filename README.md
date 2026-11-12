@@ -190,7 +190,7 @@ Open `http://localhost:3000` in your browser to interact with the platform.
 
 ### Backend: Google Cloud Run (Docker)
 
-The backend is containerized using `python:3.11-slim` and deployed on Google Cloud Run (`asia-south1`) with **2 GiB RAM** and **2 vCPUs** to support low-latency in-memory Pandas operations and XGBoost inference:
+The backend is containerized using `python:3.11-slim` and deployed on Google Cloud Run (`asia-south1`) with **512 MB RAM** and **2 vCPUs** to support low-latency in-memory Pandas operations and XGBoost inference:
 
 ```bash
 docker build -t semiconductor-drift-backend .
