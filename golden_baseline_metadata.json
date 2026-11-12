@@ -1,0 +1,121 @@
+{
+  "top_10_sensors": [
+    "Sensor-130",
+    "Sensor-34",
+    "Sensor-125",
+    "Sensor-124",
+    "Sensor-178",
+    "Sensor-548",
+    "Sensor-572",
+    "Sensor-40",
+    "Sensor-270",
+    "Sensor-156"
+  ],
+  "feature_importance": {
+    "Sensor-130": 0.06040558964014053,
+    "Sensor-34": 0.04846864193677902,
+    "Sensor-125": 0.04744146764278412,
+    "Sensor-124": 0.04021434858441353,
+    "Sensor-178": 0.04018179699778557,
+    "Sensor-548": 0.038630664348602295,
+    "Sensor-572": 0.03701567277312279,
+    "Sensor-40": 0.036677323281764984,
+    "Sensor-270": 0.03486069291830063,
+    "Sensor-156": 0.034505438059568405
+  },
+  "optimal_threshold": 0.35999999999999993,
+  "baseline_limits": {
+    "Sensor-130": {
+      "golden_mean": -0.04053258426966293,
+      "golden_std": 0.8933232708894153,
+      "ucl_3sigma": 2.6394372283985827,
+      "lcl_3sigma": -2.720502396937909
+    },
+    "Sensor-34": {
+      "golden_mean": 9.096820224719101,
+      "golden_std": 1.545204236661097,
+      "ucl_3sigma": 13.732432934702391,
+      "lcl_3sigma": 4.46120751473581
+    },
+    "Sensor-125": {
+      "golden_mean": 15.832808988764043,
+      "golden_std": 0.11732810215224491,
+      "ucl_3sigma": 16.18479329522078,
+      "lcl_3sigma": 15.480824682307308
+    },
+    "Sensor-124": {
+      "golden_mean": 15.856067415730335,
+      "golden_std": 0.10430089751126205,
+      "ucl_3sigma": 16.168970108264123,
+      "lcl_3sigma": 15.543164723196549
+    },
+    "Sensor-178": {
+      "golden_mean": 0.37091011235955057,
+      "golden_std": 0.26783354907519424,
+      "ucl_3sigma": 1.1744107595851334,
+      "lcl_3sigma": -0.4325905348660322
+    },
+    "Sensor-548": {
+      "golden_mean": 404.22017977528094,
+      "golden_std": 3.485938554202756,
+      "ucl_3sigma": 414.6779954378892,
+      "lcl_3sigma": 393.7623641126727
+    },
+    "Sensor-572": {
+      "golden_mean": 2.0721662921348316,
+      "golden_std": 0.38465352589990887,
+      "ucl_3sigma": 3.226126869834558,
+      "lcl_3sigma": 0.918205714435105
+    },
+    "Sensor-40": {
+      "golden_mean": 118.4986606741573,
+      "golden_std": 1.1471676688120718,
+      "ucl_3sigma": 121.94016368059353,
+      "lcl_3sigma": 115.05715766772109
+    },
+    "Sensor-270": {
+      "golden_mean": 3.9267483146067415,
+      "golden_std": 1.2495928665253297,
+      "ucl_3sigma": 7.675526914182731,
+      "lcl_3sigma": 0.17796971503075198
+    },
+    "Sensor-156": {
+      "golden_mean": 0.38831460674157314,
+      "golden_std": 0.15716404252083654,
+      "ucl_3sigma": 0.8598067343040827,
+      "lcl_3sigma": -0.08317752082093649
+    }
+  },
+  "top_30_sensors": [
+    "Sensor-572",
+    "Sensor-42",
+    "Sensor-79",
+    "Sensor-34",
+    "Sensor-114",
+    "Sensor-71",
+    "Sensor-40",
+    "Sensor-490",
+    "Sensor-475",
+    "Sensor-196",
+    "Sensor-419",
+    "Sensor-574",
+    "Sensor-571",
+    "Sensor-565",
+    "Sensor-156",
+    "Sensor-417",
+    "Sensor-414",
+    "Sensor-271",
+    "Sensor-317",
+    "Sensor-124",
+    "Sensor-90",
+    "Sensor-126",
+    "Sensor-178",
+    "Sensor-573",
+    "Sensor-130",
+    "Sensor-588",
+    "Sensor-125",
+    "Sensor-270",
+    "Sensor-38",
+    "Sensor-548"
+  ]
+}
