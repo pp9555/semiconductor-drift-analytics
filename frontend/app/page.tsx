@@ -279,7 +279,7 @@ export default function MicronDriftDashboard() {
         <div>
           <div className="flex items-center gap-2 text-cyan-400 text-xs font-semibold uppercase tracking-wider">
             <Cpu className="w-4 h-4" />
-            Micron ADTS ATI PI • Advanced Data Analytics Platform
+            Chamber Drift & Wafer Analytics Platform
           </div>
           <h1 className="text-2xl md:text-3xl font-bold text-white mt-1">
             Faster Cell Metrics Drift Detection & AI Diagnostics
